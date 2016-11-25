@@ -13,6 +13,7 @@ public class BuilderPatternEx {
         director.construct(carBuilder);
         Product p1 = carBuilder.getVehicle();
         p1.show();
+
         //Making MotorCycle
         director.construct(motorBuilder);
         Product p2 = motorBuilder.getVehicle();
