@@ -14,7 +14,7 @@ public class RobotFacade {
         rb = new RobotBody();
     }
 
-    public void ConstructRobot(String color, String metal) {
+    public void constructRobot(String color, String metal) {
         System.out.println("\nCreation of the Robot Start");
         rc.SetColor(color);
         rm.SetMetal(metal);
