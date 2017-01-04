@@ -4,6 +4,7 @@ JavaProgress.*
 .project
 .classpath
 .settings
+logs/*
 
 bin/
 .gradle
