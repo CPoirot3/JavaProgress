@@ -35,7 +35,7 @@ dependencies {
     compile group: 'org.apache.kafka', name: 'kafka_2.11', version: '0.10.1.0'
 
     // https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch
-    compile group: 'org.elasticsearch', name: 'elasticsearch', version: '5.0.0'
+    compile group: 'org.elasticsearch', name: 'elasticsearch', version: '5.2.0'
 
     // https://mvnrepository.com/artifact/org.apache.jena/jena-arq
 	compile group: 'org.apache.jena', name: 'jena-arq', version: '3.1.0'
@@ -57,6 +57,29 @@ dependencies {
     compile 'org.springframework.data:spring-data-jpa'
     compile 'org.springframework.data:spring-data-rest'
     compile 'org.springframework.boot:spring-boot-starter-web:1.4.3.RELEASE'
+
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore
+    compile group: 'org.apache.httpcomponents', name: 'httpcore', version: '4.4.6'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime
+    compile group: 'org.apache.httpcomponents', name: 'httpmime', version: '4.5.2'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc
+    compile group: 'org.apache.httpcomponents', name: 'fluent-hc', version: '4.5.2'
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient-cache
+    compile group: 'org.apache.httpcomponents', name: 'httpclient-cache', version: '4.5.2'
+
+
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.0'
+
+    // https://mvnrepository.com/artifact/org.apache.beam/beam-sdks-java-core
+    compile group: 'org.apache.beam', name: 'beam-sdks-java-core', version: '0.4.0'
+    // https://mvnrepository.com/artifact/org.apache.beam/beam-runners-direct-java
+    compile group: 'org.apache.beam', name: 'beam-runners-direct-java', version: '0.4.0'
+    // https://mvnrepository.com/artifact/org.apache.beam/beam-runners-core-java
+    compile group: 'org.apache.beam', name: 'beam-runners-core-java', version: '0.4.0'
+
 
     // Declare the dependency for your favourite test framework you want to use in your tests.
     // TestNG is also supported by the Gradle Test task. Just change the
