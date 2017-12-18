@@ -7,6 +7,10 @@ import java.util.concurrent.FutureTask;
  */
 public class FutureTaskTest {
     public static void main(String[] args) {
+        ThreadLocal<Long> threadLocal = new ThreadLocal<>();
+        threadLocal.set(100L);
+        System.out.println(threadLocal.get());
+
 
     }
 }

@@ -1,8 +1,8 @@
 package com.bupt.poirot.rxJava;
 
 import rx.Observable;
-
 import java.util.concurrent.TimeUnit;
+
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 

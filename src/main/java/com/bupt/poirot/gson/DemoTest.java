@@ -3,7 +3,6 @@ package com.bupt.poirot.gson;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
@@ -13,14 +12,13 @@ import java.util.Optional;
 /**
  * Created by hui.chen on 2/2/17.
  */
-public class GsonTest {
+public class DemoTest {
     public static void main(String[] args) {
         Gson gson = new Gson();
         User user = new User("怪盗kidou",24);
         String strFromObject = gson.toJson(user); // {"name":"怪盗kidou","age":24}
         System.out.println(strFromObject);
 
-//        String jsonString = "{\"name\":\"怪盗kidou\",\"age\":24}";
         User u = gson.fromJson(strFromObject, User.class);
         System.out.println(u.name);
         System.out.println(u.age);
